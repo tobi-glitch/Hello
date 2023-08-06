@@ -204,6 +204,7 @@ table.insert(
                 while mousedown == true do
                     if B.Target ~= nil then
                         local D = B.Target
+D.Anchored = false
                         if D.Anchored == false then
                             object = D
                             dist = (object.Position - front.Position).magnitude
