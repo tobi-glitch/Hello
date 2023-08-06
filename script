@@ -6,7 +6,7 @@ local Tab = Window:NewTab("Universal")
 
 local Section = Tab:NewSection("Universal")
 
-Section:NewButton("ButtonText", "ButtonInfo", function()
+Section:NewButton("telekenisis", "ButtonInfo", function()
     -- Press a block to pick it (ignores anchored blocks) (there is a thing called network ownership so you cannot pick it but works on games sometimes like da hood)
 -- Long Press - Flings a block (power is customizable at line 19)
 -- Unequip  - Releases a block
@@ -350,7 +350,7 @@ end
 end)
 
 
-Section:NewToggle("ToggleText", "ToggleInfo", function(state)
+Section:NewToggle("noclip", "ToggleInfo", function(state)
     if state then
         ]]
 local StealthMode = true -- If game has an anticheat that checks the logs
